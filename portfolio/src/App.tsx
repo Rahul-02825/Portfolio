@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import About from './About'
+import Projects from './Projects'
+
 
 const App = () => {
   return (
@@ -12,14 +14,14 @@ const App = () => {
           <div className="max-w-4xl mx-auto p-8">
             <p className='text-l text-gray-300 mb-2'>I'm Rahul K, Full stack developer</p>
             <h1 className="text-5xl font-extrabold mb-6 text-white">I love to create</h1>
-            <button className='px-3 py-1 bg-white text-black'>Contact me</button>
+            <button className='px-3 py-1 bg-white text-black'>Ping me</button>
           </div>
         </section>
-        <section id="about" className="h-screen">
-          <About/>
+        <section id="about" className="h-screen bg-black flex justify-center items-center ">
+          <About/>       
         </section>
-        <section id="projects" className="h-screen">
-          
+        <section id="projects" className="h-screen bg-black flex justify-center items-center">         
+          <Projects/>
         </section>       
 
       </div>
