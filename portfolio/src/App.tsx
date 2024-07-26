@@ -3,7 +3,6 @@ import Navbar from './components/Navbar';
 import About from './About'
 import Projects from './Projects'
 
-
 const App = () => {
   return (
     <div className='bg-black'>
@@ -18,7 +17,7 @@ const App = () => {
           </div>
         </section>
         <section id="about" className="h-screen bg-black flex justify-center items-center ">
-          <About/>       
+           <About/>     
         </section>
         <section id="projects" className="h-screen bg-black flex justify-center items-center">         
           <Projects/>

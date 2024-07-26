@@ -4,7 +4,7 @@ import projectdata from './constants/projects.json'
 const Projects = () => {
   return (
     <div className='m-16'>
-        <div className='text-4xl text-black mb-8'>Projects</div>
+        <div className='text-4xl text-white mb-8'>Projects</div>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6'>
             {projectdata.map((item, key) => (
                 <div key={key} className="w-full p-4">
